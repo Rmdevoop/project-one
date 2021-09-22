@@ -3,6 +3,8 @@
 background-image: url("../images/header_img.png");
 height: 400px;
 width: auto;
+background-color: black;
+
 }
 
 #profile_img 
@@ -19,7 +21,7 @@ border : solid rgb(247, 243, 243);
 
 #header h2 {
 margin-left: 650px;
-margin-top: 70px;
+margin-top: 80px;
 color: rgb(66, 32, 32);
 position: absolute;
 font-family: 'Bebas Neue', cursive;
@@ -51,3 +53,84 @@ font-size: 80px;
 #header nav a:hover {
 color:#84b3be;
 }
+
+#social  {
+   
+   
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 42%;
+    list-style: none; 
+    margin-top: -20px;
+   position: absolute;
+   z-index: 1;
+    
+    
+       
+}
+
+
+
+
+#social .sm_icon {
+    width: 45px;
+    margin-left: 10px;
+    
+  
+       
+}
+
+
+#main  {
+    
+    background-color: #f0f0ed;
+    position: relative;
+}
+#container-1  {
+    
+    margin-left: 80px;
+    margin-right: 80px;
+}
+#main h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 55px;
+    font-family: 'Nunito', sans-serif;
+    border-bottom: cadetblue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#main h2.underline { padding-right:20px; border-bottom:1px; position:relative;}
+#main h2.underline span { border-bottom-style: inset;  border-bottom:3px solid rgb(100, 95, 95); position:absolute; bottom:-1px;} /*border color must be same as background color. assumed here to be white*/
+
+#main h4{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 19px;
+    color: rgb(131, 162, 163);
+    font-weight: bolder;
+}
+#main p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: rgb(64, 68, 68);
+    
+}
+
+
+.rout{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+
+
+
+

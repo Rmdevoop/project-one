@@ -35,8 +35,7 @@ font-size: 80px;
     margin-top: 170px;
     margin-left: 680px;
     color: rgb(46, 121, 206);
-    
-    }
+}
 #header nav {
     position: absolute;
     margin-top : 300px ;
@@ -55,29 +54,19 @@ color:#84b3be;
 }
 
 #social  {
-   
-   
     height: 55px;
     border-radius: 10px;
-    margin-left: 42%;
+    margin-left: 40%;
     list-style: none; 
     margin-top: -20px;
    position: absolute;
    z-index: 1;
-    
-    
-       
 }
 
-
-
-
-#social .sm_icon {
-    width: 45px;
-    margin-left: 10px;
-    
-  
-       
+#social .sm_icon 
+{
+    width: 40px;
+    margin-left: 25px;
 }
 
 
@@ -86,51 +75,203 @@ color:#84b3be;
     background-color: #f0f0ed;
     position: relative;
 }
+
 #container-1  {
     
     margin-left: 80px;
     margin-right: 80px;
-}
-#main h2{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 55px;
-    font-family: 'Nunito', sans-serif;
-    border-bottom: cadetblue;
-    font-size: 20px;
-    font-weight: bolder;
-}
-#main h2.underline { padding-right:20px; border-bottom:1px; position:relative;}
-#main h2.underline span { border-bottom-style: inset;  border-bottom:3px solid rgb(100, 95, 95); position:absolute; bottom:-1px;} /*border color must be same as background color. assumed here to be white*/
-
-#main h4{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 19px;
-    color: rgb(131, 162, 163);
-    font-weight: bolder;
-}
-#main p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: 'Nunito', sans-serif;
-    font-size: 17px;
-    color: rgb(64, 68, 68);
+    padding-top: 50px;
+    
     
 }
+#content1
+{
+    margin-bottom: 100px;
+    background-color:cornsilk; 
+    border-radius: 10px;
+}
 
+#content1 .col-lg-6 h2 
+{
+    font-family: 'Nunito', sans-serif;
+    color:rgb(105, 72, 72);
+    font-size:x-large;
+    margin: 10px 0px 8px 10px;
+}
 
-.rout{
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+#content1 .col-lg-6 p
+{
+color:rgb(105, 72, 72);
+margin: 10px 0px 10px 10px;
+align-content:stretch;
+
+}
+
+#content1 .col-lg-6 p span
+{
+font-size: large;
+margin-right: 10px;
+
+}
+
+#content1 .col-lg-6 p .details{
+    color: blueviolet;
+    margin-left: 50px;
 }
 
 
+#content2 .col-lg-12{
+    padding-bottom: 50px;
+}
+
+#content2 h2{
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+    font-family: 'Nunito', sans-serif;
+}
 
 
-
+ .tile-progress {
+    background-color: #020813;
+    color: #fff;
+    }
+    .tile-progress {
+    background: #00a65b;
+    color: rgb(85, 45, 45);
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    }
+    .tile-progress .tile-header {
+    padding: 15px 20px;
+    padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    }
+    .tile-progress .tile-progressbar {
+    height: 2px;
+    background: rgba(0,0,0,0.18);
+    margin: 0;
+    }
+    .tile-progress .tile-progressbar span {
+    background: #fff;
+    }
+    .tile-progress .tile-progressbar span {
+    display: block;
+    background: #fff;
+    width: 0;
+    height: 100%;
+    -webkit-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    -moz-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    -o-transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    transition: all 1.5s cubic-bezier(0.230,1.000,0.320,1.000);
+    }
+    .tile-progress .tile-footer {
+    font-family: 'Nunito', sans-serif;
+    padding: 20px;
+    text-align: right;
+    background: rgba(0,0,0,0.1);
+    -webkit-border-radius: 0 0 3px 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 0 0 3px 3px;
+    -moz-background-clip: padding;
+    border-radius: 0 0 3px 3px;
+    background-clip: padding-box;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    }
+    .tile-progress.tile-red {
+    background-color: #f56954;
+    color: #fff;
+    }
+    .tile-progress {
+    background-color: #303641;
+    color: #fff;
+    }
+    .tile-progress.tile-blue {
+    background-color: #0073b7;
+    color: #fff;
+    }
+    .tile-progress.tile-aqua {
+    background-color: #00c0ef;
+    color: #fff;
+    }
+    .tile-progress.tile-green {
+    background-color: #00a65a;
+    color: #fff;
+    }
+    .tile-progress.tile-cyan {
+    background-color: #00b29e;
+    color: #fff;
+    }
+    .tile-progress.tile-purple {
+    background-color: #ba79cb;
+    color: #fff;
+    }
+    .tile-progress.tile-pink {
+    background-color: #ec3b83;
+    color: #fff;
+    }
+#content3 {
+    padding-bottom: 50px;
+}
+    #content3 h2{
+        text-align: center;
+        margin: 10px 0px 40px 0px;
+        font-family: 'Nunito', sans-serif;
+    }
+    #content3 .col-md-6{
+        height: 200px;
+        width: 550px;
+        margin-left:20px;
+        margin-bottom: 20px;
+       
+        
+    }
+    .col-md-6 {
+       position: relative;
+       
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .col-md-6:hover .image {
+        opacity: 0.3;
+      }
+      
+      .col-md-6:hover .middle {
+        opacity: 1;
+      }
+      
+      .text {
+        background-color: #04AA6D;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+        font-family: 'Nunito', sans-serif;
+      }
